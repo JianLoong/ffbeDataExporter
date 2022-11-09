@@ -1,7 +1,7 @@
 {
    "background": {
       "persistent": true,
-      "scripts": [ "lib/jquery.min.js", "lib/core.js", "lib/md5.js", "lib/evpkdf.js", "lib/cipher-core.js", "lib/enc-base64.js", "lib/enc-utf16.js", "lib/format-hex.js", "lib/mode-ecb.js", "lib/aes.js", "background.js"]
+      "scripts": [ "lib/jquery.min.js", "lib/core.js", "lib/md5.js", "lib/evpkdf.js", "lib/cipher-core.js", "lib/enc-base64.js", "lib/enc-utf16.js", "lib/format-hex.js", "lib/mode-ecb.js", "lib/aes.js", "background.js" ]
    },
    "browser_action": {
       "default_icon": "icons/iconeExtractor_32.png"
@@ -17,7 +17,7 @@
    "manifest_version": 2,
    "name": "FFBE Sync",
    "permissions": [ "tabs", "webRequest", "webRequestBlocking", "https://*.facebook.com/*", "https://lapis340v-gndgr.gumi.sg/*", "https://android.googleapis.com/auth", "https://accounts.google.com/*" ],
-   "web_accessible_resources" : [ "ffbeSync.html", "ffbeSync.js" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2.5.11"
+   "version": "2.5.13",
+   "web_accessible_resources": [ "ffbeSync.html", "ffbeSync.js" ]
 }
